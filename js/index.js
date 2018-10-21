@@ -18,6 +18,7 @@ for( let i = 0; i < 5; i += 1) {
 
 ul.style.textAlign = 'left';
 document.querySelector('#emu').appendChild(ul);
+document.querySelector('#emu').removeChild(ul);
 
 
 
