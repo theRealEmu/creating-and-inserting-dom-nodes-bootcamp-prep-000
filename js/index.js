@@ -3,5 +3,5 @@
 var element = document.createElement('div');
 element.innerText = "Hello Emu";
 var main = document.querySelector('#main');
-main.innerHTML = element;
+main.appendChild(element);
 element.style.color = 'green';
