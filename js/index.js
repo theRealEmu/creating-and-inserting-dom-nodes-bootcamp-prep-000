@@ -2,5 +2,6 @@
 //you can use this to paste in js code and have it run when index.html is loaded
 var element = document.createElement('div');
 element.innerText = "Hello Emu";
+var main = document.querySelector()
 document.body.main.innerHTML = element;
 element.style.color = 'green';
