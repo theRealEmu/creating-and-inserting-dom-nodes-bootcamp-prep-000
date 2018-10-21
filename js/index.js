@@ -5,4 +5,4 @@ element.innerText = "Hello Emu";
 var main = document.querySelector('#main');
 main.appendChild(element);
 element.style.color = 'green';
-element.style.align = 'center';
+element.style.textAlign = 'center';
