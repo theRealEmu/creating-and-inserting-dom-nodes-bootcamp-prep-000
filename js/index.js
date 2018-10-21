@@ -6,5 +6,15 @@ var main = document.querySelector('#main');
 main.appendChild(element);
 element.style.color = 'green';
 element.style.textAlign = 'center';
+element.setAttribute('id', 'emu');
+
+var ul = document.createElement('ul');
+
+for( let i = 0; i < 5; i += 1) {
+  var li = document.createElement('li');
+  li.innerText = i;
+  ul.appendChild(li);
+}
+
 
 
